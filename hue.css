@@ -1,0 +1,35 @@
+::selection {
+  background: #ec0;
+  color: darkslateblue;
+}
+
+:root {
+  --larva: peachpuff;
+  color: var(--larva);
+  background-color: darkviolet;
+  background-image: linear-gradient(
+    darkslateblue,
+    transparent,
+    rebeccapurple
+  );
+}
+
+:any-link {
+  color: darkviolet;
+  background: var(--larva);
+}
+
+:focus {
+  outline: 1ex groove var(--larva);
+}
+
+:active {
+  --larva: khaki;
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    --larva: papayawhip;
+    background-color: indigo;
+  }
+}

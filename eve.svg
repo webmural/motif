@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <title>eve</title>
+  <style>
+    svg {
+      background: linear-gradient(darkslateblue, darkviolet, rebeccapurple);
+    }
+  </style>
+</svg>
